@@ -1,10 +1,10 @@
 import React from 'react'
 import Sidebar from './components/Sidebar'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import About from './components/About'
 import Resume from './components/Resume'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path:"/",
     element:<About/>
